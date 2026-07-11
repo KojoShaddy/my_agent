@@ -1,6 +1,6 @@
 # Building Intelligent AI Agents with Antigravity IDE and Google Agent Development Kit (ADK)
 
-This project contains a starter template for building, testing, and running AI agents using the **Google Agent Development Kit (ADK)**. It has been pair-programmed and configured inside the **Antigravity IDE**.
+This project contains a starter template for building, testing, and running AI agents using the **Google Agent Development Kit (ADK)**.
 
 ## Project Structure
 
