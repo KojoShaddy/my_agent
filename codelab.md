@@ -184,4 +184,4 @@ To continue building:
 2. **Multi-Agent Systems:** Connect multiple agents together by adding sub-agents.
 3. **Deploy:** Package your agent to run in production using `adk deploy`.
 
-Refer to the official documentation on the [Google ADK GitHub Repository](https://github.com/google/adk) for more advanced tutorials.
+Refer to the official documentation on the [Google ADK GitHub Repository](https://github.com/KojoShaddy/my_agent) for more advanced tutorials.
