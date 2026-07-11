@@ -63,6 +63,9 @@ adk web my_agent
 ```
 Open your browser and navigate to `http://127.0.0.1:8000` to interact with the agent using the developer interface.
 
+![ADK Web UI](adk_web.jpg)
+
+
 ---
 
 ## Deploying the Agent

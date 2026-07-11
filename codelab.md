@@ -155,6 +155,8 @@ adk web my_agent
 - By default, the server runs on `http://127.0.0.1:8000`.
 - Open your browser, navigate to the URL, and start chatting with the agent!
 
+![ADK Web UI](adk_web.jpg)
+
 ---
 
 ## 7. Enhancing the Agent (Adding Custom Logic)
