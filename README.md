@@ -65,6 +65,14 @@ Open your browser and navigate to `http://127.0.0.1:8000` to interact with the a
 
 ---
 
-## Documentation
+## Deploying the Agent
 
-For a full step-by-step tutorial on how the agent is structured, how to add custom rules, and how to define tools, refer to the [codelab.md](codelab.md) file.
+Package your agent to run in production using **Google Cloud Run**, **Google App Engine**, **Google Kubernetes Engine**, or **Google Compute Engine**.
+
+---
+
+## Documentation & Resources
+
+* **Step-by-Step Codelab:** Refer to the [codelab.md](codelab.md) file for a detailed tutorial on workspace setup, customizing instructions, and using the CLI or Web UI.
+* **Official SDK:** Learn more at the official [Google ADK GitHub Repository](https://github.com/google/adk-python).
+

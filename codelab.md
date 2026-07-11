@@ -188,6 +188,7 @@ Congratulations! You have successfully configured and run your first Google ADK 
 To continue building:
 1. **Add Tools:** Integrate functions for the agent to call by using python functions.
 2. **Multi-Agent Systems:** Connect multiple agents together by adding sub-agents.
-3. **Deploy:** Package your agent to run in production using `adk deploy`.
+3. **Deploy:** Package your agent to run in production using **Google Cloud Run**, **Google App Engine**, **Google Kubernetes Engine**, or **Google Compute Engine**.
 
-Refer to the official documentation on the [Google ADK GitHub Repository](https://github.com/KojoShaddy/my_agent) for more advanced tutorials.
+Refer to the official documentation on the [Google ADK GitHub Repository](https://github.com/google/adk-python) for more advanced tutorials.
+
