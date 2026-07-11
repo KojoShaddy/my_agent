@@ -28,9 +28,15 @@ Key advantages of ADK:
 
 ## 2. Prerequisites & Environment Setup
 
-ADK requires **Python 3.10+**. Follow these steps to prepare your directory structure:
+ADK requires **Python 3.10+**. Follow these steps to prepare your workspace and directory structure:
 
-### Step A: Initialize a Virtual Environment
+### Step A: Workspace Setup in Antigravity IDE
+1. Open the **Antigravity IDE**.
+2. Click on **File** > **Open Folder** (or click **Open Folder** on the welcome screen).
+3. Create a new directory named `Agent` on your local system (e.g., on your Desktop) and select it to open the workspace.
+4. Open the integrated terminal in the IDE (go to **Terminal** > **New Terminal** or press `Ctrl + \``).
+
+### Step B: Initialize a Virtual Environment
 Using a virtual environment prevents package name collisions (like the common mistake of installing `adk` instead of `google-adk`).
 
 ```bash
@@ -48,7 +54,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### Step B: Install the Correct SDK Package
+### Step C: Install the Correct SDK Package
 Run the following command to download and install the official Agent Development Kit package:
 
 ```bash
