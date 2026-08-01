@@ -29,7 +29,7 @@ Ensure you have **Python 3.10+** installed on your system.
 python -m venv .venv
 
 # Activate virtual environment (Windows Bash / Git Bash)
-source .venv/Scripts/activate
+source ./.venv/Scripts/activate
 ```
 
 ### 3. Install Dependencies

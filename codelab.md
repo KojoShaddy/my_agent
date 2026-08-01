@@ -47,6 +47,9 @@ python -m venv .venv
 # On Windows (Command Prompt):
 .venv\Scripts\activate.bat
 
+# Windows Bash / Git Bash
+source ./.venv/Scripts/activate
+```
 # On Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
 
