@@ -28,13 +28,22 @@ Key advantages of ADK:
 
 ## 2. Prerequisites & Environment Setup
 
-ADK requires **Python 3.10+**. Follow these steps to prepare your workspace and directory structure:
+Before you begin, ensure you have the following installed:
 
-### Step A: Workspace Setup in Antigravity IDE
-1. Open the **Antigravity IDE**.
+### Prerequisites
+- **[Python 3.10+](https://www.python.org/downloads/)** – Required for running ADK and managing virtual environments.
+- **[Git Bash](https://git-scm.com/download/win)** (Windows users) – Provides a Unix-like command-line environment for Windows. This ensures compatibility with bash commands used throughout this codelab.
+- **Code Editor/IDE** – Choose one of the following:
+  - **[Antigravity IDE](https://www.antigravity.dev/)** – A modern IDE designed for AI development.
+  - **[VS Code](https://code.visualstudio.com/)** – A lightweight and powerful code editor with extensive extension support.
+
+### Step A: Workspace Setup in Antigravity IDE or VS Code
+1. Open **Antigravity IDE** or **VS Code**.
 2. Click on **File** > **Open Folder** (or click **Open Folder** on the welcome screen).
 3. Create a new directory named `Agent` on your local system (e.g., on your Desktop) and select it to open the workspace.
-4. Open the integrated terminal in the IDE (go to **Terminal** > **New Terminal** or press `Ctrl + \``).
+4. Open the integrated terminal in the IDE:
+   - **Antigravity IDE**: Go to **Terminal** > **New Terminal** or press `Ctrl + \``.
+   - **VS Code**: Go to **Terminal** > **New Terminal** or press `` Ctrl + ` ``.
 
 ### Step B: Initialize a Virtual Environment
 Using a virtual environment prevents package name collisions (like the common mistake of installing `adk` instead of `google-adk`).
@@ -83,7 +92,7 @@ During this command, the CLI prompts you:
 3. **Google API Key**: Enter your key (or enter a placeholder and modify it later).
 
 > [!NOTE]
-> On Windows, if the command crashes at the very end with a `UnicodeEncodeError`, don't worry. This is a display formatting bug caused by console emojis. The files are still successfully created under the `my_agent` folder.
+> On Windows, if the command crashes at the very end with a `UnicodeEncodeError`, don't worry. This is a display formatting bug caused by console emojis. The files are still successfully created under[...]
 
 ---
 
@@ -196,4 +205,3 @@ To continue building:
 3. **Deploy:** Package your agent to run in production using **Google Cloud Run**, **Google App Engine**, **Google Kubernetes Engine**, or **Google Compute Engine**.
 
 Refer to the official documentation on the [Google ADK GitHub Repository](https://github.com/google/adk-python) for more advanced tutorials.
-
