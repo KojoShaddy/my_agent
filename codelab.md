@@ -1,5 +1,7 @@
 # Building Intelligent AI Agents with Antigravity IDE and Google Agent Development Kit (ADK)
 
+By: Shadrack Inusah (Google Developer Expert, Cloud AI)
+
 Welcome to the Google Agent Development Kit (ADK) Codelab! In this tutorial, you will learn how to build, run, and interact with AI agents using the Google ADK Python framework.
 
 ## Table of Contents
@@ -32,10 +34,10 @@ Before you begin, ensure you have the following installed:
 
 ### Prerequisites
 - **[Python 3.10+](https://www.python.org/downloads/)** – Required for running ADK and managing virtual environments.
-- **[Git Bash](https://git-scm.com/download/win)** (Windows users) – Provides a Unix-like command-line environment for Windows. This ensures compatibility with bash commands used throughout this codelab.
+- **[Git Bash](https://git-scm.com/download/win)** (Windows users) – This ensures compatibility with bash commands used throughout this codelab.
 - **Code Editor/IDE** – Choose one of the following:
   - **[Antigravity IDE](https://www.antigravity.dev/)** – A modern IDE designed for AI development.
-  - **[VS Code](https://code.visualstudio.com/)** – A lightweight and powerful code editor with extensive extension support.
+  - **[VS Code](https://code.visualstudio.com/)**
 
 ### Step A: Workspace Setup in Antigravity IDE or VS Code
 1. Open **Antigravity IDE** or **VS Code**.
