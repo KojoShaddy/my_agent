@@ -49,7 +49,7 @@ python -m venv .venv
 
 # Windows Bash / Git Bash
 source ./.venv/Scripts/activate
-```
+
 # On Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
 
