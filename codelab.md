@@ -66,7 +66,7 @@ Before you begin, make sure you have the following installed and ready.
 
 - **[Python 3.10+](https://www.python.org/downloads/)** – Required for running the Google ADK Python package.
 - **[Git Bash](https://git-scm.com/download/win)** – Recommended for Windows users because this codelab includes Bash commands.
-- **[Antigravity IDE](https://www.antigravity.dev/)** – Recommended development environment for this codelab.
+- **[Antigravity IDE](https://antigravity.google/product/antigravity-ide)** – Recommended development environment for this codelab.
 - **[VS Code](https://code.visualstudio.com/)** – Optional alternative if you prefer to use another development environment.
 - A **Google AI Studio API key** for accessing Gemini through the Google AI backend.
 - An active internet connection.
@@ -89,13 +89,19 @@ Before continuing, make sure you have:
 
    > **Alternative:** You can use VS Code if Antigravity IDE is not available.
 
-2. Click on **File** > **Open Folder** (or click **Open Folder** on the welcome screen).
-
-3. Create a new directory named `Agent` on your local system (for example, on your Desktop) and select it to open the workspace.
-
-4. Open the integrated terminal in the IDE:
+2. Open the integrated terminal in the IDE:
    - **Antigravity IDE:** Go to **Terminal** > **New Terminal** or press `Ctrl + \``.
    - **VS Code:** Go to **Terminal** > **New Terminal** or press `` Ctrl + ` ``.
+   - *(Windows users: You can switch the terminal profile to **Git Bash** via the dropdown).*
+
+3. Create and prepare your project folder:
+   - **Using Bash in the integrated terminal:**
+     ```bash
+     mkdir Agent
+     cd Agent
+     ```
+   - **Or using the GUI:** Click **File** > **Open Folder** (or click **Open Folder** on the welcome screen), create a new directory named `Agent`, and open it.
+
 
 ### Step B: Initialise a Virtual Environment
 
